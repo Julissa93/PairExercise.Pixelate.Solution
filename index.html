@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pixelate</title>
+    <!-- This gets us our fun 8-bit font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+    <!-- loads our own CSS file -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>Pixelate</h1>
+    <div class = 'buttons'>
+      Insert number of columns: 
+      <input type='text' name='num-rows' id='num-rows' width="48" height="48"> 
+      <br />
+      <br />
+      <button id='add-row'>Add Rows</button>
+      <button id='remove-row'>Remove a row</button>
+      <select>
+        <!-- add options here! -->
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+        <option value="purple">Purple</option>
+      </select>
+      
+      <button id='fill-board'>Fill Board</button>
+      <button id='paint-remainding-cells'>Paint Remainding Cells</button>
+      <button id='clear'>Clear Board</button>
+      <button id='add-col'>Add Column</button>
+      <button id='remove-col'>Remove Column</button>
+      
+    </div>
+    <table>
+      
+    </table>
+  </body>
+  <!-- loads our JavaScript file -->
+  <script type="text/javascript" src="/script.js"></script>
+</html>
